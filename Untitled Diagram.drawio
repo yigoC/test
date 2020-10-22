@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T06:33:53.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="W_zPMZy19urz4yGrEGo_" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T06:39:44.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="brvYxLkLl7c8rtb84VuC" version="13.8.1" type="github">
   <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
     <mxGraphModel dx="813" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13,6 +13,11 @@
         <mxCell id="106" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeWidth=2;fontSize=14;fontColor=#4277BB;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="2" source="77" target="nAjsM4DF9k13uvVhEfmW-117" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="563" y="309.126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nAjsM4DF9k13uvVhEfmW-128" value="数据读写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="106">
+          <mxGeometry x="-0.0454" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="104" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeWidth=2;fontSize=14;fontColor=#4277BB;strokeColor=#FFB366;" parent="2" source="76" target="28" edge="1">
@@ -31,6 +36,9 @@
         </mxCell>
         <mxCell id="84" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/microservice.svg;labelBackgroundColor=#ffffff;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="28" vertex="1">
           <mxGeometry x="19" y="164" width="82" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nAjsM4DF9k13uvVhEfmW-132" value="用户注册站点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="28">
+          <mxGeometry x="7" y="116" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="77" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=#ffffff;fontColor=#4277BB;align=right;startSize=0;collapsible=0;strokeWidth=3;" parent="2" vertex="1">
           <mxGeometry x="315" y="57" width="137" height="193" as="geometry" />
@@ -59,10 +67,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="nAjsM4DF9k13uvVhEfmW-131" value="操作共享库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nAjsM4DF9k13uvVhEfmW-126">
+          <mxGeometry x="0.1336" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nAjsM4DF9k13uvVhEfmW-127" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeWidth=2;fontSize=14;fontColor=#4277BB;strokeColor=#4277BB;" edge="1" parent="2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380.65999999999997" y="320" as="targetPoint" />
             <mxPoint x="380.65999999999997" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nAjsM4DF9k13uvVhEfmW-129" value="轮询共享库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nAjsM4DF9k13uvVhEfmW-127">
+          <mxGeometry x="-0.0041" y="18" relative="1" as="geometry">
+            <mxPoint x="-19" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
