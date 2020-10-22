@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T06:16:35.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="j088ixS9MKALdlBVZW5J" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T06:17:48.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ZeztTl3j5d8C7BUt57RR" version="13.8.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#003469" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="zLW9h7TbHPuLCcYN_W8n-2092" value="NetWork" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#3399FF;fontFamily=Helvetica;fontSize=18;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="583" y="54" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zLW9h7TbHPuLCcYN_W8n-2093" value="Canal" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#3399FF;fontFamily=Helvetica;fontSize=18;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="zLW9h7TbHPuLCcYN_W8n-2093" value="Canal&lt;br&gt;/DataBus&lt;br&gt;/DataX" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#3399FF;fontFamily=Helvetica;fontSize=18;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="406" y="54" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zLW9h7TbHPuLCcYN_W8n-2094" value="" style="shape=mxgraph.arrows.two_way_arrow_horizontal;html=1;verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=2;strokeColor=none;dashed=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#00BEF2" vertex="1" parent="1">
