@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T07:26:22.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="3zoshR-8TMuy8NL3jowL" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T08:01:25.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="pEzSmMnQfmG4yZ4JbUA7" version="13.8.1" type="github">
   <diagram id="jqOhDni-oQEerBtIIdov" name="Page-1">
-    <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="144" y="50" width="539" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-2" value="&lt;span&gt;内部服务/站点:此类站点主要消息接收及推送,同时进行定时任务&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-2" value="&lt;span&gt;微服务/定时任务:需要进行实时性高数据交互服务.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="77.25" width="449" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-3" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="74" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-4" value="&lt;span&gt;API GateWay(API网关):&amp;nbsp;&lt;/span&gt;&lt;span id=&quot;docs-internal-guid-dd0a6776-7fff-c518-27d1-3884f40e37ec&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(53 , 55 , 68) ; background-color: transparent ; vertical-align: baseline&quot;&gt;隔离第三方通用服务(非本司服务)与本地应用直接进行交互,作为外部服务的唯一出口 &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="214" y="124.5" width="449" height="42" as="geometry" />
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-4" value="&lt;span&gt;API GateWay(API网关): API路由服务,&lt;/span&gt;&lt;span id=&quot;docs-internal-guid-dd0a6776-7fff-c518-27d1-3884f40e37ec&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(53 , 55 , 68) ; background-color: transparent ; vertical-align: baseline&quot;&gt;隔离第三方通用服务(非本司服务)与本地应用直接进行交互,统一交互协议,作为外部服务的唯一出口.松散业务与中间的耦合.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="214" y="114" width="449" height="42" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-5" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="123" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-6" value="&lt;span&gt;数据库:应用层使用数据库含Mysql、Oracle&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="215.5" y="177" width="449" height="30" as="geometry" />
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-6" value="&lt;span&gt;数据库:服务使用数据库(含Mysql、Oracle)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="215.5" y="172" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-7" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="172" width="23" height="23" as="geometry" />
