@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T08:02:16.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_5gj-D5kpexJ8-F2Rfmi" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T08:04:11.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="h8BAk8y3i_CEAYwq9802" version="13.8.1" type="github">
   <diagram id="jqOhDni-oQEerBtIIdov" name="Page-1">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,13 +31,13 @@
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-9" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="221" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-10" value="&lt;span&gt;配置管理: 对网关层进行动态配置管理.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-10" value="&lt;span&gt;配置管理: 对分布式服务进行动态配置信息管理.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="270" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-11" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="270" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-12" value="&lt;span&gt;数据库管道: 通过解析binaryLog分析数据库行为,进行数据清洗、搬运.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-12" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Canal/DataX/DataBus&lt;/font&gt;&lt;/span&gt;&lt;span&gt;(数据库管道): 通过通过伪装成备份库,实时解析binaryLog分析数据库行为,进行数据同步.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="319" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-13" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
