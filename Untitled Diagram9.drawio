@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T08:04:11.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="h8BAk8y3i_CEAYwq9802" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T08:06:47.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="uZzwsh-sln9xzXojpgDU" version="13.8.1" type="github">
   <diagram id="jqOhDni-oQEerBtIIdov" name="Page-1">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,19 +43,19 @@
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-13" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="319" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-14" value="&lt;span&gt;Redis/ElasticSearch: 数据缓存层,存放通用缓存数据,数据由Canal进行搬运.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-14" value="&lt;span&gt;Redis/ElasticSearch: 数据缓存应该用库,存放通用缓存数据,数据由Canal进行搬运.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="368" width="449" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-15" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="368" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-16" value="&lt;span&gt;Kibana: 提供ElasticSearch在线查询服务，可提供直观的图表及报告&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-16" value="&lt;span&gt;Kibana: 提供ElasticSearch在线查询功能，可提供直观的图表及报告&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="417" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-17" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="417" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="2sxuf5Y_pAdE7AjlEddM-18" value="&lt;span&gt;日志:记录API GateWay运行周期内执行日志&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="2sxuf5Y_pAdE7AjlEddM-18" value="&lt;span&gt;日志:&lt;/span&gt;接收记录API GateWay保存日志,完整保留数据流转过程中的信息" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="215.5" y="466" width="449" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2sxuf5Y_pAdE7AjlEddM-19" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
