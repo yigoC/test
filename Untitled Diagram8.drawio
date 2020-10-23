@@ -1,71 +1,71 @@
-<mxfile modified="2020-10-23T07:23:19.147Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="VARCER6m25VrSL_LvI9M" version="13.8.1" type="github">
+<mxfile modified="2020-10-23T07:24:38.923Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="pYqZTfjtahrgRwuvPCLq" version="13.8.1" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="1185" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="730" y="315.25" width="539" height="510" as="geometry" />
+          <mxGeometry x="96" y="960" width="539" height="510" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-75" value="&lt;span&gt;内部服务/站点:此类站点主要消息接收及推送,同时进行定时任务&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="342.5" width="449" height="32.5" as="geometry" />
+          <mxGeometry x="167.5" y="987.25" width="449" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-82" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="339.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="984" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-95" value="&lt;span&gt;API GateWay(API网关):&amp;nbsp;&lt;/span&gt;&lt;span id=&quot;docs-internal-guid-dd0a6776-7fff-c518-27d1-3884f40e37ec&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(53 , 55 , 68) ; background-color: transparent ; vertical-align: baseline&quot;&gt;隔离第三方通用服务(非本司服务)与本地应用直接进行交互,作为外部服务的唯一出口 &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="800" y="389.75" width="449" height="42" as="geometry" />
+          <mxGeometry x="166" y="1034.5" width="449" height="42" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-96" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="388.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1033" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-97" value="&lt;span&gt;数据库:应用层使用数据库含Mysql、Oracle&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="442.25" width="449" height="30" as="geometry" />
+          <mxGeometry x="167.5" y="1087" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-98" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="437.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1082" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-99" value="第三方云服务: 比较通用的阿里云服务及微信应用" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="486.25" width="449" height="30" as="geometry" />
+          <mxGeometry x="167.5" y="1131" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-100" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="486.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1131" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-101" value="&lt;span&gt;配置管理: 对网关层进行动态配置管理.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="535.25" width="449" height="30" as="geometry" />
+          <mxGeometry x="167.5" y="1180" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-102" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="535.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1180" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-103" value="&lt;span&gt;数据库管道: 通过解析binaryLog分析数据库行为,进行数据清洗、搬运.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="584.25" width="449" height="30" as="geometry" />
+          <mxGeometry x="167.5" y="1229" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-104" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="584.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1229" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-105" value="&lt;span&gt;Redis/ElasticSearch: 数据缓存层,存放通用缓存数据,数据由Canal进行搬运.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="633.25" width="449" height="40" as="geometry" />
+          <mxGeometry x="167.5" y="1278" width="449" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-106" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="633.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1278" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-107" value="&lt;span&gt;Kibana: 提供ElasticSearch在线查询服务，可提供直观的图表及报告&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="682.25" width="449" height="30" as="geometry" />
+          <mxGeometry x="167.5" y="1327" width="449" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-108" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="682.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1327" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-109" value="&lt;span&gt;日志:记录API GateWay运行周期内执行日志&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="731.25" width="449" height="20" as="geometry" />
+          <mxGeometry x="167.5" y="1376" width="449" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-110" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="731.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1376" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-111" value="&lt;span&gt;Users:运维/配置管理员.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="801.5" y="780.25" width="449" height="20" as="geometry" />
+          <mxGeometry x="167.5" y="1425" width="449" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yIlqXNv4PA9Dnh1hxRCn-112" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="751.5" y="780.25" width="23" height="23" as="geometry" />
+          <mxGeometry x="117.5" y="1425" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="NH3HatyMuzMGPKfZ8wXx-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" edge="1" parent="1" source="NH3HatyMuzMGPKfZ8wXx-7" target="NH3HatyMuzMGPKfZ8wXx-59">
           <mxGeometry relative="1" as="geometry" />
