@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T08:16:09.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="AgngacKsbiB38LH_OF-N" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-04T08:22:54.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="NPtG7NiuAa0fIDEIsR4f" version="13.10.8" type="github">
   <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6dSQAqMlOGTboqSz_zC7-106" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=#ffffff;fontColor=#4277BB;align=right;startSize=0;collapsible=0;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="140" y="120" width="539" height="376" as="geometry" />
+          <mxGeometry x="240" y="120" width="539" height="376" as="geometry" />
         </mxCell>
         <mxCell id="6dSQAqMlOGTboqSz_zC7-140" value="标签规则库" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_services.svg;rounded=1;labelBackgroundColor=#ffffff;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" vertex="1" parent="6dSQAqMlOGTboqSz_zC7-106">
           <mxGeometry x="139" y="267" width="60" height="60" as="geometry" />
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6dSQAqMlOGTboqSz_zC7-141" value="" style="group;fontSize=14;fontColor=#4277BB;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="6dSQAqMlOGTboqSz_zC7-106">
-          <mxGeometry x="310" y="170" width="58.5" height="60" as="geometry" />
+          <mxGeometry x="269" y="170" width="58.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6dSQAqMlOGTboqSz_zC7-142" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/miscellaneous/scalable.svg;rounded=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" vertex="1" parent="6dSQAqMlOGTboqSz_zC7-141">
           <mxGeometry width="12" height="15" as="geometry" />
@@ -39,6 +39,18 @@
             <mxPoint x="29" y="53" as="sourcePoint" />
             <mxPoint x="28.75" y="109" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6dSQAqMlOGTboqSz_zC7-151" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4277BB;strokeWidth=2;fontSize=14;fontColor=#4277BB;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6dSQAqMlOGTboqSz_zC7-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.5" y="193" as="sourcePoint" />
+            <mxPoint x="412.573454815486" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dSQAqMlOGTboqSz_zC7-152" value="" style="group;fontSize=14;fontColor=#4277BB;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="6dSQAqMlOGTboqSz_zC7-106">
+          <mxGeometry x="410" y="170" width="58.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6dSQAqMlOGTboqSz_zC7-153" value="打标签服务" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/management/api_management.svg;rounded=1;labelBackgroundColor=#ffffff;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;spacingTop=3;" vertex="1" parent="6dSQAqMlOGTboqSz_zC7-152">
+          <mxGeometry x="6.25" y="-7" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
