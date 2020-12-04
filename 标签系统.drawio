@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T07:42:00.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="RwHSGxJqK3JejHlA4BGC" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-04T07:42:27.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="jeN2Qo5NBAkBqCRcEa4V" version="13.10.8" type="github">
   <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -87,13 +87,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-165" value="缓存库" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-112">
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-165" value="&lt;span style=&quot;color: rgb(66 , 119 , 187) ; font-size: 14px&quot;&gt;缓存库&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-112">
           <mxGeometry x="30" y="83" width="64" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-166" value="缓存库" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-112">
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-166" value="&lt;span style=&quot;color: rgb(66 , 119 , 187) ; font-size: 14px&quot;&gt;缓存库&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-112">
           <mxGeometry x="30" y="209" width="64" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-167" value="缓存库" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-112">
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-167" value="&lt;span style=&quot;color: rgb(66 , 119 , 187) ; font-size: 14px&quot;&gt;缓存库&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-112">
           <mxGeometry x="30" y="343" width="64" height="52" as="geometry" />
         </mxCell>
         <mxCell id="1juNRBmNJ1_mRn5t6Ebo-128" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4277BB;strokeWidth=2;fontSize=14;fontColor=#4277BB;" edge="1" parent="2">
