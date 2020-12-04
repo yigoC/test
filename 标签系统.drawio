@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T05:36:30.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="JfVmVPKja3j-n4rs788l" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-04T05:38:16.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="Pc7Dr5Nz5qvXTFPIU0x1" version="13.10.8" type="github">
   <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -47,26 +47,38 @@
         <mxCell id="79" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=#ffffff;fontColor=#4277BB;align=right;startSize=0;collapsible=0;strokeWidth=3;" parent="2" vertex="1">
           <mxGeometry x="422" y="67" width="137" height="483" as="geometry" />
         </mxCell>
-        <mxCell id="96" value="" style="group;fontSize=14;fontColor=#4277BB;labelBackgroundColor=#ffffff;" parent="79" vertex="1" connectable="0">
-          <mxGeometry x="40" y="249" width="57" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="97" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/miscellaneous/scalable.svg;rounded=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" parent="96" vertex="1">
-          <mxGeometry width="12" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="98" value="BARE METAL&lt;br&gt;SERVERS" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/file_repository.svg;rounded=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" parent="96" vertex="1">
-          <mxGeometry width="57" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="99" value="" style="group;fontSize=14;fontColor=#4277BB;labelBackgroundColor=#ffffff;" parent="79" vertex="1" connectable="0">
           <mxGeometry x="40" y="368" width="57" height="60" as="geometry" />
         </mxCell>
         <mxCell id="100" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/miscellaneous/scalable.svg;rounded=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" parent="99" vertex="1">
           <mxGeometry width="12" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="101" value="BARE METAL&lt;br&gt;SERVERS" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/file_repository.svg;rounded=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" parent="99" vertex="1">
-          <mxGeometry width="57" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="1juNRBmNJ1_mRn5t6Ebo-113" value="用户中心" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/infrastructure_services.svg;rounded=1;labelBackgroundColor=#ffffff;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" vertex="1" parent="79">
-          <mxGeometry x="37" y="39" width="60" height="60" as="geometry" />
+          <mxGeometry x="37" y="119" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-131" value="" style="group;fontSize=14;fontColor=#4277BB;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="79">
+          <mxGeometry x="40" y="249" width="58.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-132" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/miscellaneous/scalable.svg;rounded=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-131">
+          <mxGeometry width="12" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-133" value="打标签服务" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/management/api_management.svg;rounded=1;labelBackgroundColor=#ffffff;strokeColor=#666666;strokeWidth=3;fillColor=#C2952D;gradientColor=none;fontSize=14;fontColor=#4277BB;spacingTop=3;" vertex="1" parent="1juNRBmNJ1_mRn5t6Ebo-131">
+          <mxGeometry x="-1.5" y="-7" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-135" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4277BB;strokeWidth=2;fontSize=14;fontColor=#4277BB;" edge="1" parent="79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13" y="229" as="targetPoint" />
+            <mxPoint x="-50" y="229" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-136" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4277BB;strokeWidth=2;fontSize=14;fontColor=#4277BB;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="79" source="1juNRBmNJ1_mRn5t6Ebo-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="68.25" y="189" as="sourcePoint" />
+            <mxPoint x="68" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="68" y="199" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="102" value="Scalable" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;image;image=img/lib/ibm/miscellaneous/scalable.svg;rounded=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=2;fillColor=#335D81;gradientColor=none;fontSize=12;fontColor=#4277BB;verticalAlign=middle;spacingLeft=7;labelPosition=right;verticalLabelPosition=middle;" parent="2" vertex="1">
           <mxGeometry x="24" y="608" width="15" height="15" as="geometry" />
@@ -83,11 +95,6 @@
         <mxCell id="103" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4277BB;strokeWidth=2;fontSize=14;fontColor=#4277BB;" parent="1juNRBmNJ1_mRn5t6Ebo-107" source="76" target="1juNRBmNJ1_mRn5t6Ebo-106" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-30" y="33" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1juNRBmNJ1_mRn5t6Ebo-111" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;entryX=0;entryY=0.522;entryPerimeter=0;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=4;endArrow=classic;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4277BB;strokeWidth=2;fontSize=14;fontColor=#4277BB;" edge="1" parent="2" source="1juNRBmNJ1_mRn5t6Ebo-112">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="312.126" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1juNRBmNJ1_mRn5t6Ebo-112" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=#ffffff;fontColor=#4277BB;align=right;startSize=0;collapsible=0;strokeWidth=3;" vertex="1" parent="2">
