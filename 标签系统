@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T06:30:43.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="JhRVh2NlaOzxTYfH85kV" version="14.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-02-24T06:33:43.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="dQOhAM5EqMXXeYqWJieM" version="14.4.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,8 +164,8 @@
             <mxPoint x="1197" y="1280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1637" y="360" />
-              <mxPoint x="1637" y="1420" />
-              <mxPoint x="1187" y="1420" />
+              <mxPoint x="1637" y="1450" />
+              <mxPoint x="1187" y="1450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -176,8 +176,8 @@
             <mxPoint x="1227" y="1260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1637" y="480" />
-              <mxPoint x="1637" y="1420" />
-              <mxPoint x="1187" y="1420" />
+              <mxPoint x="1637" y="1450" />
+              <mxPoint x="1187" y="1450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -188,7 +188,7 @@
           <mxGeometry x="1137" y="320" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Js-uGtlAZnt7oZwJ-e8v-6" value="结束" style="rounded=1;whiteSpace=wrap;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
-          <mxGeometry x="1127" y="1440" width="120" height="40" as="geometry" />
+          <mxGeometry x="1127" y="1490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Js-uGtlAZnt7oZwJ-e8v-7" value="Y" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
           <mxGeometry x="1187" y="520" width="20" height="20" as="geometry" />
@@ -223,11 +223,11 @@
         <mxCell id="Js-uGtlAZnt7oZwJ-e8v-18" value="Y" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
           <mxGeometry x="1237" y="1060" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Js-uGtlAZnt7oZwJ-e8v-19" value="执行事务,保存用户标签信息及订单策略关联信息" style="rounded=1;whiteSpace=wrap;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
-          <mxGeometry x="1127" y="1280" width="120" height="40" as="geometry" />
+        <mxCell id="Js-uGtlAZnt7oZwJ-e8v-19" value="更新redis用户标签信息&#xa;执行事务,保存用户标签信息及订单策略关联信息" style="rounded=1;whiteSpace=wrap;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
+          <mxGeometry x="1127" y="1280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Js-uGtlAZnt7oZwJ-e8v-20" value="更新用户对应标签的有效实现" style="rounded=1;whiteSpace=wrap;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
-          <mxGeometry x="1127" y="1360" width="120" height="40" as="geometry" />
+          <mxGeometry x="1127" y="1400" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Js-uGtlAZnt7oZwJ-e8v-21" value="Y" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Js-uGtlAZnt7oZwJ-e8v-1">
           <mxGeometry x="1117" y="940" width="20" height="20" as="geometry" />
@@ -315,7 +315,7 @@
             <mxPoint x="957" y="1020" as="sourcePoint" />
             <mxPoint x="1972" y="1330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1037" y="1300" />
+              <mxPoint x="1037" y="1320" />
             </Array>
           </mxGeometry>
         </mxCell>
