@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:32:20.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tJKj1bXqX2dZZ3iYhMKf" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:32:56.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="M-xR6LIc8NrIS064kfxv" version="14.4.9" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="生产者">
     <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -388,13 +388,14 @@
             <mxPoint x="158" y="238" as="sourcePoint" />
             <mxPoint x="340" y="860" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="120" y="840" />
+              <mxPoint x="80" y="200" />
+              <mxPoint x="80" y="840" />
               <mxPoint x="340" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m91mYFBQKGIMhiHV7-oW-28" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="NRgs0xbpjPIlP5jE2Gdw-1">
-          <mxGeometry x="100" y="200" width="20" height="20" as="geometry" />
+          <mxGeometry x="100" y="180" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m91mYFBQKGIMhiHV7-oW-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="NRgs0xbpjPIlP5jE2Gdw-1">
           <mxGeometry x="490" y="240" width="20" height="20" as="geometry" />
