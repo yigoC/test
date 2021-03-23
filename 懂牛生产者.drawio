@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T07:53:58.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="fve5ZSdpwdQ_mM9a_JN_" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-23T07:56:03.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="igSXUlxJHM9ksOYGuzAW" version="14.4.9" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="生产者">
     <mxGraphModel dx="653" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,14 +498,14 @@
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-0" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="rwO0QZ8HR0ieSN3D084H-1" source="8dcPhmN5mdjBSKr0lK-F-16" target="8dcPhmN5mdjBSKr0lK-F-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="1290" as="targetPoint" />
+            <mxPoint x="630" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="560" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
-          <mxGeometry x="560" y="1090" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-3" value="接收生产者消息队列信息(实例,队列,Group,Tag)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="560" y="160" width="120" height="40" as="geometry" />
@@ -544,7 +544,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-16" value="新增控制站点的消费者信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
-          <mxGeometry x="560" y="1010" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="920" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-18" value="生产者是否存在?" style="rhombus;whiteSpace=wrap;html=1;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="560" y="240" width="120" height="80" as="geometry" />
@@ -588,8 +588,8 @@
             <mxPoint x="620" y="1040" as="targetPoint" />
             <Array as="points">
               <mxPoint x="760" y="280" />
-              <mxPoint x="760" y="1070" />
-              <mxPoint x="620" y="1070" />
+              <mxPoint x="760" y="980" />
+              <mxPoint x="620" y="980" />
             </Array>
           </mxGeometry>
         </mxCell>
