@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T07:58:46.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="S4bYMCSeIMDQ9xePF9-Z" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-23T07:59:44.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ZfIyzFgaZjIx0xxV9RrQ" version="14.4.9" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="生产者">
     <mxGraphModel dx="653" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -445,7 +445,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bQRX9UCYgiQLonKAh0wY" name="消息队列控制端">
-    <mxGraphModel dx="261" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rwO0QZ8HR0ieSN3D084H-0" />
         <mxCell id="rwO0QZ8HR0ieSN3D084H-1" parent="rwO0QZ8HR0ieSN3D084H-0" />
@@ -585,10 +585,10 @@
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-32" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="620" y="320" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="C4usmqGqn4SrVZbNbI6M-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="rwO0QZ8HR0ieSN3D084H-1" source="8dcPhmN5mdjBSKr0lK-F-19" edge="1">
+        <mxCell id="C4usmqGqn4SrVZbNbI6M-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="rwO0QZ8HR0ieSN3D084H-1" source="8dcPhmN5mdjBSKr0lK-F-19" target="8dcPhmN5mdjBSKr0lK-F-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="470" as="sourcePoint" />
-            <mxPoint x="400" y="780" as="targetPoint" />
+            <mxPoint x="318.8235294117647" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C4usmqGqn4SrVZbNbI6M-3" value="注销消费者" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
@@ -607,7 +607,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C4usmqGqn4SrVZbNbI6M-7" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
-          <mxGeometry x="540" y="460" width="20" height="20" as="geometry" />
+          <mxGeometry x="680" y="460" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ks0oidst8x19Y9EO2S1k-1" value="Y&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="rwO0QZ8HR0ieSN3D084H-1">
           <mxGeometry x="540" y="575" width="20" height="20" as="geometry" />
@@ -650,8 +650,8 @@
             <mxPoint x="750" y="520" as="sourcePoint" />
             <mxPoint x="720" y="970" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="720" y="280" />
-              <mxPoint x="720" y="1020" />
+              <mxPoint x="780" y="280" />
+              <mxPoint x="780" y="1020" />
               <mxPoint x="620" y="1020" />
             </Array>
           </mxGeometry>
