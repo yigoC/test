@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T08:02:39.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="nXSb9B-cguWitZ-7vznK" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-23T08:39:12.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="LbNdSO9Fm1grBbmruh12" version="14.4.9" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="生产者">
     <mxGraphModel dx="653" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -445,7 +445,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bQRX9UCYgiQLonKAh0wY" name="消息队列控制端">
-    <mxGraphModel dx="768" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rwO0QZ8HR0ieSN3D084H-0" />
         <mxCell id="rwO0QZ8HR0ieSN3D084H-1" parent="rwO0QZ8HR0ieSN3D084H-0" />
@@ -496,7 +496,7 @@
         <mxCell id="czrKmWL1lxgnTCA6qH5t-18" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="160" y="460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8dcPhmN5mdjBSKr0lK-F-0" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="rwO0QZ8HR0ieSN3D084H-1" source="8dcPhmN5mdjBSKr0lK-F-16" target="8dcPhmN5mdjBSKr0lK-F-2" edge="1">
+        <mxCell id="8dcPhmN5mdjBSKr0lK-F-0" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="rwO0QZ8HR0ieSN3D084H-1" source="ojE1iZzcHu7MLUCK_d0x-1" target="8dcPhmN5mdjBSKr0lK-F-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="1300" as="targetPoint" />
           </mxGeometry>
@@ -505,7 +505,7 @@
           <mxGeometry x="560" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
-          <mxGeometry x="560" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="1120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-3" value="接收生产者消息队列信息(实例,队列,Group,Tag)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="560" y="160" width="120" height="40" as="geometry" />
@@ -655,9 +655,21 @@
             <mxPoint x="720" y="970" as="targetPoint" />
             <Array as="points">
               <mxPoint x="780" y="280" />
-              <mxPoint x="780" y="1020" />
-              <mxPoint x="620" y="1020" />
+              <mxPoint x="780" y="1100" />
+              <mxPoint x="620" y="1100" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojE1iZzcHu7MLUCK_d0x-0" value="判断Group是否存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rwO0QZ8HR0ieSN3D084H-1">
+          <mxGeometry x="430" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ojE1iZzcHu7MLUCK_d0x-1" value="更新Group消费总数量信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="rwO0QZ8HR0ieSN3D084H-1">
+          <mxGeometry x="560" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojE1iZzcHu7MLUCK_d0x-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rwO0QZ8HR0ieSN3D084H-1" source="8dcPhmN5mdjBSKr0lK-F-16" target="ojE1iZzcHu7MLUCK_d0x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1140" as="targetPoint" />
+            <mxPoint x="620" y="1000" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
