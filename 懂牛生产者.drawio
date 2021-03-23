@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T01:35:45.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SHd6cBqpYZNiKPKI3dLx" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-23T01:37:14.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="pbJcDGorWxOlGroTR8Jm" version="14.4.9" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="生产者">
     <mxGraphModel dx="653" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -567,7 +567,7 @@
             <mxPoint x="620" y="920" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8dcPhmN5mdjBSKr0lK-F-18" value="生产者是否已存在中！" style="rhombus;whiteSpace=wrap;html=1;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
+        <mxCell id="8dcPhmN5mdjBSKr0lK-F-18" value="生产者是否存在！" style="rhombus;whiteSpace=wrap;html=1;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
           <mxGeometry x="580" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8dcPhmN5mdjBSKr0lK-F-19" value="是否存在该消费时间记录？" style="rhombus;whiteSpace=wrap;html=1;" parent="rwO0QZ8HR0ieSN3D084H-1" vertex="1">
